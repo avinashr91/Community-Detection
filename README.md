@@ -11,7 +11,7 @@ our lives greatly. Most existing methods are mainly focus on the
 community detection based on the linkage analysis but without
 the semantic reflection. To address this problem, we aim to find
 communities based on conversations in one real dataset, Enron
-email corpus (http://www.cs.cmu.edu/ ∼enron/). Here we define
+email corpus (http://www.cs.cmu.edu/∼enron/). Here we define
 the “conversation” based on the topic of discussion in a given
 mail thread where nodes represent users and edges represent
 conversations between users. Community detection in this work
