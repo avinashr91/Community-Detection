@@ -25,6 +25,37 @@ results were concluded and compared. The approach used in this
 work can effectively extract community structure representing
 users based on their conversation frequency in a given topic.
 
+# Summary
+
+An innovative method was proposed based
+on data modeling (indexing) and community detection to
+determine a meaningful communities. Enron email dataset was
+used here. With graph modeling and clustering first, 11 clusters
+were partitioned and in which nodes in the graphs refer to
+the users associated in the conversation and the edge between
+two users implies that the users have communicated with each
+other on a particular conversation (topic). At the second step,
+we run modularity optima community detection algorithm on
+each topical cluster to test different connection strength. Three
+different versions of the modularity maximization method was
+used and the experiment results were compared and discussed.
+Among the various results a better community partition can
+always been chosen to meet different requirements. The performance
+obtained in this approach, when compared to the
+traditional modularity based method, was more convincing and
+meaningful since particular conversation detection plays a role
+at least as important as the linkage strength. We believe our approach
+has many potential applications in today’s community
+detection especially when used in complex social networks.
+We are able to find impressive community partition not only
+based on various connection strength, but also conversationoriented.
+More interesting works, for example, how to improve
+the existing algorithm we have to match the state-of-the-art
+source, and how to apply our current results on other largerscale
+real world datasets, would be our next moving for deeper
+understanding.
+
+
 
 # Working of the Project: 
 
