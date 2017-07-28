@@ -1,0 +1,12 @@
+node1,node2,weight
+1:Football/Music,2:Football,6
+2:Football,3:Football,3
+3:Football,4:Football,2
+4:Football,1:Football/Music,6
+1:Football/Music,5:Music,7
+1:Football/Music,6:Music,8
+5:Music,6:Music,5
+6:Music,7:Music,1
+7:Music,8:Music,4
+7:Music,9:Music,6
+8:Music,9:Music,4
