@@ -29,11 +29,16 @@ users based on their conversation frequency in a given topic.
 # Working of the Project: 
 
 SOURCE CODE folder has 3 subfolders:
-	a. Data Modelling - This contains the files used for preprossing and indexing. The program can be started by calling Indexing.jar
-		NOTE :  The input for this data(compresessed version) was about 1 GB in size.
+	a. Data Modelling - This contains the files used for preprossing and indexing. 
+	The program can be started by calling Indexing.jar
+	
+	NOTE :  The input for this data(compresessed version) was about 1 GB in size.
+	
 	b. Community Detection - This folder contains Program.jar and contains our implementation of Fast Modulartiy approach.
-	c. Graph Visualization - This folder contains the the R code for community detection from igraph package along with grpah visualization module for analyzing the communities.
-		NOTE : R is an iterative programming language and hence no executables can be given for this.
-    R must be set up to execute this.
+	
+	c. Graph Visualization - This folder contains the the R code for community detection from igraph package along with grpah 		visualization module for analyzing the communities.
+	
+	NOTE : R is an iterative programming language and hence no executables can be given for this.
+    	R must be set up to execute this.
 		
-Please reach out for any clarifications regarding code or the exectuion.
+	Please reach out for any clarifications regarding code or the exectuion.
